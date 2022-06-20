@@ -17,23 +17,22 @@ setup(
   author="GaelicGrime",
   author_email="will.angus.blaylock@gmail.com",
   license="GPLv3",
-  name="runawayClock",
+  name="multiTimer",
   url="https://github.com/ComfortableSoftware/commonFunctions_py",
   version="0.9.3-1",
-  package_dir={"runawayClock": "runawayClock"},
+  package_dir={"multiTimer": "multiTimer"},
   package_data={
-      "runawayClock": [
+      "multiTimer": [
           "../doc/*",
-          "BUTTONS_D/*",
-          "CLOCKS_D/*",
+          "../images/*",
       ]
   },
-  packages=["runawayClock"],
+  packages=["multiTimer"],
   install_requires=[
       "CF",
       "PySimpleGUI",
   ],
   extras_require={
   },
-  scripts=["scripts/runawayClock"],
+  scripts=["scripts/multiTimer"],
 )
